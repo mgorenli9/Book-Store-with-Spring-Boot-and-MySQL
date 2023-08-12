@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none; /* altçizgiyi kaldırır*/
+    outline: none;
+    border: none;
+
+}
+
+ul,
+li{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+section,
+span,
+p{
+    margin:0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+/*
+body{
+ background-image: url("../images/book_bg.jpg");
+ background-size: cover;
+ background-repeat; no-repeat;
+}
+*/
+.navbar{
+    background:white;
+    color : black;
+}
+
+.container {
+    max-width: 1170px;
+    margin:  0 auto;
+    padding: 30px 20px;
+}
+
+.header{
+    background-image: url("../images/bg_book.png");
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+        height: 100vh;
+}
+
+.header2{
+    background-image: url("../images/bb.jpg");
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+        height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+section{
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat; no-repeat;
+    background-attachment:fixed;
+
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.image-1{
+    background-image: url("../images/bg_book.png");
+}
+.image-2{
+
+    background-image: url("../images/image_1.jpg");
+}
+*/
+
+h1{
+ font-size: 50px;
+}
+
+/* footer */
+
+.footer{
+
+    background-color:white;
+    height: 150px;
+    text-align: center;
+    color:black;
+
+    bottom: 20px;
+}
+
+.icons{
+    margin-top: 40px;
+    margin: 40px auto;
+}
+.icons a{
+    color: #f4f4f7;
+    text-decoration: none; /* link altındaki çizgiyi kaldırır */
+}
